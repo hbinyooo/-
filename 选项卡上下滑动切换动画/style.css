@@ -1,0 +1,22 @@
+*{ margin: 0; padding: 0; }
+.main-left{ width: 555px; height: 844px; }
+.main-left .placeholder{  }
+.main-left .placeholder p{ float: left; height: 97px; }
+.main-left .placeholder p.w54{ width: 54px; }
+.main-left .placeholder p.w138{ width: 138px; }
+.main-left .placeholder p.w140{ width: 140px; }
+.main-left ul{ width: 100%; height: 100%; position: relative; }
+.main-left ul li{ width: 349px; height: 97px; padding-left: 50px; position: absolute; cursor: pointer; transition: .2s linear; transition-property: left,top,opacity; }
+.main-left ul li p{ height: 83px; line-height: 83px; font-size: .24px; color: #000; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.main-left ul li.top{ padding-top: 14px; background: url("frame-bg1.png") no-repeat; background-size: 349px 97px; }
+.main-left ul li.bottom{ padding-bottom: 14px; background: url("frame-bg2.png") no-repeat; background-size: 349px 97px; }
+.main-left ul li.list1{ top: -178px; left: -118px; padding-top: 14px; background: url("../img/frame-bg1.png") no-repeat; background-size: 349px 97px; opacity: 0; }
+.main-left ul li.list2{ top: -59px; left: -33px; padding-top: 14px; background: url("../img/frame-bg1.png") no-repeat; background-size: 349px 97px; opacity: 0; }
+.main-left ul li.list3{ top: 60px; left: 52px; padding-top: 14px; background: url("../img/frame-bg1.png") no-repeat; background-size: 349px 97px; }
+.main-left ul li.list4{ top: 179px; left: 137px; padding-top: 14px; background: url("frame-bg1.png") no-repeat; background-size: 349px 97px; }
+.main-left ul li.list5{ top: 375px; left: 145px; width: 380px; padding-left: 0; }
+.main-left ul li.list5 p{ font-size: 42px; height: 97px; line-height: 97px; color: #000; font-weight: bold; }
+.main-left ul li.list6{ top: 570px; left: 137px; padding-bottom: 14px; background: url("frame-bg2.png") no-repeat; background-size: 349px 97px; }
+.main-left ul li.list7{ top: 689px; left: 52px; padding-bottom: 14px; background: url("frame-bg2.png") no-repeat; background-size: 349px 97px; }
+.main-left ul li.list8{ top: 808px; left: -33px; padding-bottom: 14px; background: url("frame-bg2.png") no-repeat; background-size: 349px 97px; opacity: 0; }
+.main-left ul li.list9{ top: 927px; left: -118px; padding-bottom: 14px; background: url("frame-bg2.png") no-repeat; background-size: 349px 97px; opacity: 0; }
